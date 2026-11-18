@@ -9,7 +9,8 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      {/* Browser integrations can add classes to body before React hydrates. */}
+      <body suppressHydrationWarning>{children}</body>
     </html>
   );
 }
