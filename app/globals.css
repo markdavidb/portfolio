@@ -28,7 +28,10 @@ body {
   padding-block: 1.5rem;
   border-bottom: 1px solid var(--line);
   color: var(--muted);
-  font: 0.875rem/1.5 ui-monospace, Consolas, monospace;
+  font:
+    0.875rem/1.5 ui-monospace,
+    Consolas,
+    monospace;
 }
 
 .portfolio-intro {
@@ -43,7 +46,10 @@ body {
   align-items: center;
   gap: 0.65rem;
   color: var(--accent);
-  font: 0.875rem/1.5 ui-monospace, Consolas, monospace;
+  font:
+    0.875rem/1.5 ui-monospace,
+    Consolas,
+    monospace;
 }
 
 .portfolio-status::before {

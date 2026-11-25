@@ -1,0 +1,4 @@
+# Generated lockfile and local agent tooling (.gitignore is also honored).
+/package-lock.json
+/.agents/
+/.codex/
