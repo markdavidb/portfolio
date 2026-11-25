@@ -1,4 +1,3 @@
-
 # Portfolio — AGENTS.md
 
 <!-- BEGIN:nextjs-agent-rules -->
@@ -49,7 +48,8 @@ Load only the relevant SKILL.md and necessary references. Usually one skill is e
 
 ## Validation and Reporting
 
-- Run checks proportionate to the change: `npm run lint`, `npx tsc --noEmit`, or `npm run build`.
+- Use `npm run format` and `npm run lint:fix` to apply fixes.
+- Run `npm run check` for full validation, or run `npm run format:check`, `npm run lint`, `npm run typecheck`, and `npm run build` as needed.
 - Verify significant UI changes across relevant screen sizes when possible.
 - Reviews: report only actionable findings with severity, location, impact, and trigger. Check for false positives.
 - Keep final responses concise: outcome, changed files, validation, and remaining risks.

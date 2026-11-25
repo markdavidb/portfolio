@@ -7,7 +7,8 @@ export default function Home() {
         <p className="portfolio-status">Coming soon</p>
         <h1 id="portfolio-title">My future portfolio.</h1>
         <p className="portfolio-description">
-          I’m building a place to share my projects and what I learn along the way.
+          I’m building a place to share my projects and what I learn along the
+          way.
         </p>
       </section>
     </main>
